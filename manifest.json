@@ -1,0 +1,20 @@
+{
+  "name": "Read It Later",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "bookmarks"
+  ],
+  "browser_action": {
+    "default_title": "save tabs",
+    "default_popup": "savetab.html"
+  },
+  "icons": {
+    "16": "images/read_later16.png",
+    "32": "images/read_later32.png",
+    "48": "images/read_later48.png",
+    "128": "images/read_later128.png"
+  },
+  "description": "Save all tabs into bookmark",
+  "manifest_version": 2
+}
